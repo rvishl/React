@@ -59,4 +59,9 @@ JavaScript is syncronous single thereaded scripting language
 
 - Whenever code in JS written and whenever it's code is executed some try's to run it. This is where execution context is created. So, execution context is something where your JS code is running and the memory allocation is happing. So, execution context is a block or context where in the memory allocation of code is happing and the code is being executed in simple lines.
 
-1: 40
+
+## undefine
+- It means variable has not initilized.
+
+## not-define
+- It means variable is not define.
