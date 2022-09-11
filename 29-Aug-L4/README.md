@@ -27,7 +27,7 @@
 ## create-react-app
 - CRA is a third party package built by facebook.
 - Executing this package will create the directory structure.
-- We don't need thid package, we can create the same directory structure on our own. 
+- We don't need this package, we can create the same directory structure on our own. 
 - But, using this package is going to be helpful. It saves time and reduces efforts.
 
 **Note: The website used to manage packages is npmjs. It is like a telephone directory but for node packages.**

@@ -34,7 +34,7 @@
 - https://www.netlify.com/
 - This is free to use and no payment needed.
 
-## componentgit 
+## component 
 - The React application can be broken down into various atomic parts. These atomic parts are called components.
 - A component is a JS file. Typically a function or a class.
 - This contains the HTML code along with it's relevant JS functionality and logic.

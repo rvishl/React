@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import MyButton from './components/MyButton';
+//import logo from './logo.svg';
+import "./App.css";
+import MyButton from "./components/MyButton";
 
 function App() {
-  const btnClicked = _ => { 
+  const btnClicked = (_) => {
     alert("Button is clicked");
-  }
+  };
   return (
     <div className="App">
       <header className="App-header">
