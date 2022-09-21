@@ -13,6 +13,12 @@ function App() {
       const new_value = current_value + 1;
       return new_value;
     });
+
+    const inc = _ => {
+    updatedCounter((current_value) => {
+      const new_value = current_value + 1;
+      return new_value;
+    });
     //counter= counter + 1;
     //console.log(counter);
   }
