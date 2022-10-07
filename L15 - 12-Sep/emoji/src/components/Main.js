@@ -1,5 +1,5 @@
 import emojiList from '../emojiList';
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 
 const Main = () => {
     const [list, setList] = useState(emojiList);
@@ -9,6 +9,10 @@ const Main = () => {
         const value = e.target.value;
         setKeyword(value);
     }
+
+    useEffect(_ => {
+        console.log(`Keywoed changed - ${keyword}`);
+    }, [keyword]);
 
     return (
         <main>
