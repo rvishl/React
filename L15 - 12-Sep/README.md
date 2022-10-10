@@ -15,7 +15,11 @@
 - Based on what user has typed, we will filter the result and show the list.
 - For data, we will use this - 
 
-
-
 ## useEffect
-- 
+- This is a built in hook. Built into react. We need to import this in order to use it. This is a named export.
+- This is a hook (function) which accepts  2 things.
+    - Callback function.
+    - Dependency array.
+- If anything from that dependency array is changed, then it will call that callback function.
+- Usage - If we want to execute some certain function if the state value changes.
+The state can be created state (using useState) or it can also be an imported state from another hook.

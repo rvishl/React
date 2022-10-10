@@ -11,7 +11,24 @@ const Main = () => {
     }
 
     useEffect(_ => {
-        console.log(`Keywoed changed - ${keyword}`);
+        //Filter based on description, category, alases
+        const filterList = emojiList.filter(singleEmoji => {
+            if(singleEmoji.description.startsWith(keyword)) {
+                return true;
+            }
+
+            if(singleEmoji.category.startsWith(keyword)) {
+                return true;
+            }
+
+            if(singleEmoji.aliases.some(e => e.startsWith(keyword))) {
+                return true;
+            }
+
+            return false;
+        });
+
+        setList(filterList);
     }, [keyword]);
 
     return (
