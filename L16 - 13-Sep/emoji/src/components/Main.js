@@ -1,12 +1,13 @@
 import emojiList from '../emojiList';
 import {useEffect, useState} from 'react';
+import EmojiContainer from './EmojiContainer';
 
 const Main = () => {
     const [list, setList] = useState(emojiList);
     const [keyword, setKeyword] = useState("");
     
     const typed = (e) => {
-        const value = e.target.value;
+        const value = e.target.value.toLowerCase();
         setKeyword(value);
     }
 
@@ -40,11 +41,14 @@ const Main = () => {
             <h3>Result for - {keyword} </h3>
 
             <hr />
-            {list.map((singleEmoji, idx) => {
-                return (
-                    <p key={idx}>{singleEmoji.emoji} - {singleEmoji.description}</p>
-                )
-            })}
+            {list.length === 0 ? (
+                <p>No Emoji Found</p>
+            ) : (
+              
+                <EmojiContainer list={list} />
+
+            )}
+
         </main>
     )
 }

@@ -22,4 +22,8 @@
     - Dependency array.
 - If anything from that dependency array is changed, then it will call that callback function.
 - Usage - If we want to execute some certain function if the state value changes.
-The state can be created state (using useState) or it can also be an imported state from another hook.
+- The state can be created state (using useState) or it can also be an imported state from another hook.
+- This is used to implement side Effect.
+- Side effect is the functionality that we implement which is not the CORE effect.
+
+**Hooks were introduced in React 16.8**
