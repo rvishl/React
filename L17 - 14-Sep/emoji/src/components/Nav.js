@@ -5,7 +5,7 @@ const Nav = () => {
             <div className="img"><img src={happy} alt="logo" /></div>
             <div className="nav-header">
                 <h2>Emoji</h2>
-                <a href="https://github.com/rvishl/emoji-search---Project.git" target="_blank">Source</a>
+                <a href="https://github.com/rvishl/emoji-search---Project.git" target="_blank" rel="noreferrer">Source</a>
             </div>
             
         </nav>
