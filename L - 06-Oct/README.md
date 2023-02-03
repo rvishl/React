@@ -60,3 +60,9 @@ Router -> DOM + Native
     - to - In this attribute, we define the path where we want to take the user to.
 - Even though it is a Link component, at the DOM level, it is converted to an anchor tag only. The functionality is changed using preventDefault, but tag is still <a>
 - If any component is written outside of <Routes></Routes> then that component will ALWAYS be shown.
+
+## Assignment: 
+- Create a React Application with router.
+- In this app, make it like a portfolio website.
+- Pick any 4-5 movies and create 1 component for each movie and have a navigation bar which shows all the movies (Poster, Name, Description, Cast information, etc.).
+- Then when we click on any one movie, Then show that particular component and show that movie information.

@@ -1,7 +1,7 @@
-function MyComponent(props) {
-  console.log(props);
+function MyComponent({caption}) {
+  // console.log(props);
 
-  return <button>{props.caption}</button>;
+  return <button>{caption}</button>;
 }
 
 export default MyComponent;

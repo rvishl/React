@@ -10,3 +10,10 @@
     - Same with Following.
     - Github joining date.
     - Location
+
+**Note: If we are importing anything from a package, we directly give the package name, however if we are importing anything from out codebase, we import the path using ./ followed by the filename.**
+
+# Axios 
+- This is a better way to make API Calls.
+- This is a very good alternative to fetch.
+- To install: npm install axios.
